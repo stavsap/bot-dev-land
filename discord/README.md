@@ -1,5 +1,7 @@
 # Discord Bot Integration
 
+[Discord Dev Portal](https://discord.com/developers/docs/intro)
+
 # Clients
 
 ## Discord Python Client SDK
