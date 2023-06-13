@@ -16,6 +16,8 @@ pip install py-cord
 
 1. go to: [Discord developer app](https://discord.com/developers/applications)
 2. Click on "New Application"
+3. Give it a name and create, congrats you have a discord app.
+4. go to "bot" section, there is some configs to tweak, on of them if the bot wil lbe public or private. set what you need.
 
 ## Bot token generation
 
