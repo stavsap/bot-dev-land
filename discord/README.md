@@ -17,6 +17,13 @@ pip install py-cord
 1. go to: [Discord developer app](https://discord.com/developers/applications)
 2. Click on "New Application"
 
+## Bot token generation
+
+1. go to you app page, to "bot" section
+2. click on "Reset Token" button to obtain new token. note! after that its up to you to keep this token!, if its lost a new one will be generated in the same way but you will need to update it in you bot client.
+3. store the token safly for bot client to consume in production.
+
+
 ## Invite Link Creation
 
 1. go to you app page, to Oauth2 section and there to url-generator
