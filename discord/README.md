@@ -12,6 +12,8 @@ use [pycord](https://guide.pycord.dev/installation)
 pip install py-cord
 ```
 
+[demo bot](discord_bot.py)
+
 # Bot creation and integration
 
 ## Application creation
