@@ -6,7 +6,7 @@
 
 ## Discord Python Client SDK
 
-use [pycord](https://guide.pycord.dev/installation)
+use [pycord](https://guide.pycord.dev/installation), also check [pycord github](https://github.com/Pycord-Development/pycord/)
 
 ``` shell
 pip install py-cord
