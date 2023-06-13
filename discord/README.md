@@ -1,12 +1,20 @@
 # Discord Bot Integration
 
-## Discord Client SDK
+# Clients
+
+## Discord Python Client SDK
 
 use [pycord](https://guide.pycord.dev/installation)
 
 ``` shell
 pip install py-cord
 ```
+
+# Bot creation and integration
+
+## Application creation
+
+1. go to: [Discord developer app](https://discord.com/developers/applications)
 
 ## Tutorials
 
