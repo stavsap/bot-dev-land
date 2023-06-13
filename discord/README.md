@@ -15,6 +15,7 @@ pip install py-cord
 ## Application creation
 
 1. go to: [Discord developer app](https://discord.com/developers/applications)
+2. Click on "New Application"
 
 ## Tutorials
 
