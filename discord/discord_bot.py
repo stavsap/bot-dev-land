@@ -15,9 +15,22 @@ async def on_ready():
 # https://stackoverflow.com/questions/65207823/discord-py-bot-command-not-running
 
 # simple on message echo
-# @bot.event
-# async def on_message(message):
-#     await message.channel.send(message)
+@bot.event
+async def on_message(message):
+    # Check if the message is from a user and not the bot itself
+    if message.author == bot.user:
+        return
+    print(message.content)
+    if message.content.startswith("!hello"):
+        await message.channel.send("Hi, use !showpic to get a picture")
+    # Check if the message starts with a specific command or trigger
+    if message.content.startswith("!showpic"):
+        # Open the image file
+        with open("example.png", "rb") as f:
+            picture = discord.File(f)
+
+        # Send the message with the picture attached
+        await message.channel.send("Here's a picture!", file=picture)
 
 
 # Command to get a pong response for slash command 'ping', the guild id is the id of the server that bot in, remove it to update all.
