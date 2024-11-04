@@ -9,7 +9,7 @@
 3. Select your workspace
 4. Set up the required permissions under "OAuth & Permissions":
 
-    chat:write
-    commands
-    im:history
-    channels:history
+   - chat:write
+   - commands
+   - im:history
+   - channels:history
