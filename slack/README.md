@@ -2,7 +2,7 @@
 
 [Slack API Dev](https://api.slack.com/start/building)
 
-## Create a new Slack App at [Slack API](api.slack.com/apps):
+## Create a new Slack App at [Slack API](https://api.slack.com/apps):
 
 1. Click "Create New App"
 2. Choose "From scratch"
